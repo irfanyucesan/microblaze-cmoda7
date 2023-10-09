@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="cmoda7_mblaze" location="C:/Users/irfan/vitis/cmoda7_mblaze" platform="C:/Users/irfan/vitis/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm" platformUID="xilinx:cmod_a7-35t::0.0(custom)" systemProject="cmoda7_mblaze_system" sysConfig="design_1_wrapper_2" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="71d549378d1282192b867bb36f5acc35">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.717926890">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.538142965" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

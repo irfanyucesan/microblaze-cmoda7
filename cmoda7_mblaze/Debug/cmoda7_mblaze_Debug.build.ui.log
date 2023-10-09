@@ -1,0 +1,21 @@
+2023-10-09T17:29:48.442377600255-17:29:48 **** Incremental Build of configuration Debug for project cmoda7_mblaze ****
+000-make all 
+000-'Building file: ../src/main.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/irfan/vitis/design_1_wrapper_2/export/design_1_wrapper_2/sw/design_1_wrapper_2/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: cmoda7_mblaze.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/irfan/vitis/design_1_wrapper_2/export/design_1_wrapper_2/sw/design_1_wrapper_2/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "cmoda7_mblaze.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: cmoda7_mblaze.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size cmoda7_mblaze.elf  |tee "cmoda7_mblaze.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   7136	    364	   3116	  10616	   2978	cmoda7_mblaze.elf
+000-'Finished building: cmoda7_mblaze.elf.size'
+000-' '
+00255-
+17:29:49 Build Finished (took 597ms)
+
